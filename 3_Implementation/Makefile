@@ -23,7 +23,7 @@ $(BUILD_DIR):
 
 analysis: $(SRC)
 # Analyse the code using Cppcheck command line utility
-	cppcheck --enable=all $^ $(INC)
+	cppcheck --enable=all --check-config $^ $(INC)
 
 doc:
 # Build the code code documentation using Doxygen command line utility
