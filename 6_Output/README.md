@@ -1,1 +1,2 @@
-![OUTPUT](img/2.png)
+## OUTPUT
+![](img/2.png)
