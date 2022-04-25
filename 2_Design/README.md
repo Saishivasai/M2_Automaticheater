@@ -6,4 +6,5 @@ LM35 - Temperature sensor output voltage is proportional to Temperature
 - Since LM35 is not available we use a potentiometer to mimic anlog signals from LM35
 - In reality timer need to count hours for easy of simulation time 1min represents 23hrs and 30s,15s represents 20min, 10min respectively
 
-![FLOWDIAGRAM](img/1.png)
+## FLOWDIAGRAM
+![](img/1.png)
