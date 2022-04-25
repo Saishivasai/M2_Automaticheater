@@ -42,15 +42,15 @@ void temp()
     InitADC();
     uint16_t temp;
     temp=ReadADC(0);
-    if(temp>357)
+    if((temp>42)&&(temp<63))
     {
         PORTD|=(1<<PD0);//this closes relay by giving 5v to PD0 pin0 so heater is ON
         led1(7324,55);
     }
-    else
+    else if((temp>63)&&(temp<104))
     {
         PORTD|=(1<<PD0);//this closes relay by giving 5v to PD0 pin0 so heater is ON
-        led1(0,0);
+        led1(3662,27);
     }
 }
 
